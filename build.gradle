@@ -22,6 +22,11 @@ repositories {
 }
 
 dependencies {
+	// 메일 전송을 위해 추가
+	implementation 'org.springframework.boot:spring-boot-starter-mail'
+	// 문자열 자동 생성 함수 사용 위해 추가
+	implementation 'org.apache.commons:commons-lang3:3.12.0'
+
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
